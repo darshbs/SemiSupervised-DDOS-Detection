@@ -1,5 +1,5 @@
 # 🚀 Semi-Supervised Machine Learning Approach for DDoS Detection
-This project was submitted undr the guidance of Dr. S. Joy Kumar, PhD., to the Department of Computer Science and Engineering of Batch 2018 - 2022, St. Mary’s Engineering College (AFFILIATED TO JNTUH, APPROVED BY AICTE, ACCREDITED BY NAAC) as part of our Bachelor of Technology degree. This work is entirely original, with all referenced content properly cited. The results are based solely on our project efforts and have not been previously submitted for any degree at any institution.
+
 
 ## 📌 Project Overview
 This project implements a **Semi-Supervised Machine Learning** approach to detect **Distributed Denial-of-Service (DDoS) attacks** efficiently. By leveraging both labeled and unlabeled data, the model improves its accuracy while reducing dependency on fully labeled datasets.
@@ -11,12 +11,29 @@ This project implements a **Semi-Supervised Machine Learning** approach to detec
 ✅ **Scalable & Efficient** - Works with large-scale network datasets.  
 ✅ **Robust Against Evasion** - Adaptable to evolving attack patterns.  
 
-## ⚙️ Technologies Used
-- **Machine Learning Framework**: Scikit-Learn, TensorFlow, or PyTorch  
-- **Programming Language**: Python  
-- **Network Data Processing**: Pandas, NumPy  
-- **Visualization Tools**: Matplotlib, Seaborn  
-- **Dataset**: CIC-DDoS, KDDCup99, or similar network datasets  
+### Programming Languages:
+- Python (backend and frontend)
+- HTML, CSS, JavaScript (frontend design)
+
+### Machine Learning Frameworks/Techniques:
+- **Algorithms**: Co-clustering, Extra-Trees (ensemble classifiers), SVM (mentioned in the conclusion).
+- **Feature Selection**: Chi-square test, N-gram sequence analysis.
+- **NLP Methods**: Text semantics analysis of HTTP flows treated as documents.
+
+### Datasets:
+- NSL-KDD
+- UNBISCXIDS2012
+- UNSW-NB15
+
+### Technologies/Tools:
+- **Web Framework**: Django
+- **Database**: MySQL
+- **Visualization Tools**: Column graphs, bar graphs, spline charts (for graphical analysis).
+- **System Architecture**: Integration of NLP and semi-supervised ML for DDoS detection.
+
+### Additional Notes:
+- The implementation uses Django for web interface development and MySQL for data storage.
+- The project emphasizes combining unsupervised (co-clustering, entropy estimation) and supervised (Extra-Trees) methods for semi-supervised learning.
 
 ## 📦 Installation & Setup
 1. Clone the repository:
