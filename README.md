@@ -11,27 +11,28 @@ This project implements a **Semi-Supervised Machine Learning** approach to detec
 ✅ **Scalable & Efficient** - Works with large-scale network datasets.  
 ✅ **Robust Against Evasion** - Adaptable to evolving attack patterns.  
 
-### Programming Languages:
+## 🚀 Getting Started
+### 📜 Programming Languages:
 - Python (backend and frontend)
 - HTML, CSS, JavaScript (frontend design)
 
-### Machine Learning Frameworks/Techniques:
+### 🤖 Machine Learning Frameworks/Techniques:
 - **Algorithms**: Co-clustering, Extra-Trees (ensemble classifiers), SVM (mentioned in the conclusion).
 - **Feature Selection**: Chi-square test, N-gram sequence analysis.
 - **NLP Methods**: Text semantics analysis of HTTP flows treated as documents.
 
-### Datasets:
+### 📂 Datasets:
 - NSL-KDD
 - UNBISCXIDS2012
 - UNSW-NB15
 
-### Technologies/Tools:
+### ⚙️ Technologies/Tools:
 - **Web Framework**: Django
 - **Database**: MySQL
 - **Visualization Tools**: Column graphs, bar graphs, spline charts (for graphical analysis).
 - **System Architecture**: Integration of NLP and semi-supervised ML for DDoS detection.
 
-### Additional Notes:
+### 🌟 Additional Notes:
 - The implementation uses Django for web interface development and MySQL for data storage.
 - The project emphasizes combining unsupervised (co-clustering, entropy estimation) and supervised (Extra-Trees) methods for semi-supervised learning.
 
