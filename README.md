@@ -131,10 +131,13 @@ The project leverages the following **publicly available network intrusion datas
 ## 🚀 Future Enhancements
 🔹 **Real-Time Processing**
    - Optimize entropy-based sliding window for low-latency detection in high-traffic networks.  
+
 🔹 **Deep Learning Integration**
    - Experiment with LSTM/Transformer models for sequential traffic pattern analysis.  
+
 🔹 **IoT Network Support**
    - Extend detection to IoT devices (e.g., smart home/industrial sensors).  
+   
 🔹 **Threat Intelligence Feeds**
    - Integrate live threat data (e.g., VirusTotal API) for dynamic attack signature updates.  
 
@@ -147,6 +150,6 @@ The project leverages the following **publicly available network intrusion datas
 
 ✧ **T. Amarnath Goud** - Data & Pipeline Enginee
    - Dataset preprocessing (NSL-KDD, UNSW-NB15), entropy analysis.
-   
+
 ✧ **Md. Ali Ahmad Khurshid** - Frontend & Visualization
    - UI design (HTML/CSS/JS), chart rendering (graphs/spline).
