@@ -59,9 +59,60 @@ Run:
     ```bash
     CREATE DATABASE ddos_attack;  
     ```
+    2. Update `settings.py`
+    ```bash
+    DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ddos_attack',
+        'USER': 'your_username',
+        'PASSWORD': 'your_password',
+        'HOST': 'localhost',
+        'PORT': '3306',
+         }
+      }
+      ```
+5. **Run Migrations**
+   ```bash
+   python manage.py makemigrations  
+   python manage.py migrate  
+   ```
+6. **Download Datasets**
+   Place the datasets (NSL-KDD, UNSW-NB15, UNBISCXIDS2012) in a folder like data/ (update paths in code if needed).
+7. **Start the Django Server**
+   ```bash
+   python manage.py runserver  
+   ```
+   Visit `http://localhost:8000` to view the project.
 
-## 📊 Dataset
-The project uses **CIC-DDoS**, **KDDCup99**, or other public network datasets for training and evaluation. Data preprocessing techniques such as feature extraction, normalization, and handling missing values are applied.
+🚨 **Troubleshooting**
+- **MySQL Issues**: Ensure `mysqlclient` is installed and credentials match `settings.py`.
+- **Missing Dependencies**: Add ML/NLP libraries (e.g., `nltk`, `scikit-learn`) to `requirements.txt`.
+
+## 📊 **Dataset**
+The project leverages the following **publicly available network intrusion datasets** for training and evaluation:
+
+**Benchmark Datasets**
+- **NSL-KDD**: A refined version of KDDCup99, used for benchmarking anomaly detection algorithms.
+- **UNBISCXIDS2012**: Contains realistic traffic traces for evaluating DDoS attack patterns.
+- **UNSW-NB15**: Modern dataset with hybrid traffic (normal + attack) for testing against evolving threats.
+
+**Preprocessing & Feature Engineering**
+- **Feature Extraction**:
+   - N-gram sequences from HTTP flow headers (treated as text documents).
+   - Chi-square test for automated feature selection.
+- **Normalization**: Min-Max scaling applied to train/test subsets.
+- **Data Splitting**: 60% training, 40% testing for model validation.
+- **Noise Reduction**: Filtering irrelevant traffic via entropy-based clustering.
+
+**Dataset Availability**
+- All datasets are open-source and widely used in intrusion detection research.
+- Download links:
+   - NSL-KDD
+   - UNSW-NB15
+   - UNBISCXIDS2012
+
+
 
 ## 🚀 Future Enhancements
 🔹 **Integration with Deep Learning models** for improved detection accuracy.  
