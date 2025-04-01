@@ -19,7 +19,7 @@ This project implements a **Semi-Supervised Machine Learning** approach to detec
 
 ✅ **Multi-Network Compatibility** 
    - Works across enterprise networks, home networks, and 3G/4G mobile networks.  
-   
+
 🚨 **Detection Performance**
 - **Accuracy**: Achieves **99.15% malware detectio**n rate (as per the conclusion).
 - **Low False Positives**: Only **0.45% false alarm rate**.
@@ -129,9 +129,21 @@ The project leverages the following **publicly available network intrusion datas
 
 
 ## 🚀 Future Enhancements
-🔹 **Integration with Deep Learning models** for improved detection accuracy.  
-🔹 **Real-time deployment** in network security environments.  
-🔹 **Adaptive Learning** to counter evolving attack patterns.  
+🔹 **Real-Time Processing**
+   - Optimize entropy-based sliding window for low-latency detection in high-traffic networks.  
+🔹 **Deep Learning Integration**
+   - Experiment with LSTM/Transformer models for sequential traffic pattern analysis.  
+🔹 **IoT Network Support**
+   - Extend detection to IoT devices (e.g., smart home/industrial sensors).  
+🔹 **Threat Intelligence Feeds**
+   - Integrate live threat data (e.g., VirusTotal API) for dynamic attack signature updates.  
 
-## 🤝 Contributions
-Contributions are welcome! Feel free to fork this repo, submit pull requests, or report issues. Let's collaborate to improve DDoS detection. 😊
+## 👨‍💻 Contributors / Team
+✧ **M. Sai Darshan Balaji** - Team Lead, ML/NLP Engineer 
+   - Co-clustering, Extra-Trees, NLP feature extraction.
+✧ **M. Jaya Krishna Sai** - Backend & System Architect
+   - Django setup, MySQL integration, API design.
+✧ **T. Amarnath Goud** - Data & Pipeline Enginee
+   - Dataset preprocessing (NSL-KDD, UNSW-NB15), entropy analysis.
+✧ **Md. Ali Ahmad Khurshid** - Frontend & Visualization
+   - UI design (HTML/CSS/JS), chart rendering (graphs/spline).
