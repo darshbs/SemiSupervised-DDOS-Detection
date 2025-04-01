@@ -37,23 +37,28 @@ This project implements a **Semi-Supervised Machine Learning** approach to detec
 - The project emphasizes combining unsupervised (co-clustering, entropy estimation) and supervised (Extra-Trees) methods for semi-supervised learning.
 
 ## 📦 Installation & Setup
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/SemiSupervised-DDOS-Detection.git
-   cd SemiSupervised-DDOS-Detection
+   git clone https://github.com/darshbs/SemiSupervised-DDOS-Detection  
+   cd DDOS_ATTACK  
    ```
-2. Install dependencies:
+2. **Set Up Virtual Environment** (Python)
+    ```bash
+    python -m venv venv  
+    source venv/bin/activate  # Linux/Mac  
+    venv\Scripts\activate     # Windows  
+   ```
+
+3. **Install dependencies**:
+Run:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the training script:
-   ```bash
-   python train.py
-   ```
-4. Test the model:
-   ```bash
-   python test.py
-   ```
+4. **Configure MySQL Database**
+    1. Create a MySQL database:
+    ```bash
+    CREATE DATABASE ddos_attack;  
+    ```
 
 ## 📊 Dataset
 The project uses **CIC-DDoS**, **KDDCup99**, or other public network datasets for training and evaluation. Data preprocessing techniques such as feature extraction, normalization, and handling missing values are applied.
