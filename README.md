@@ -1,6 +1,6 @@
 # 🚀 Semi-Supervised Machine Learning Approach for DDoS Detection
 
-This project was submitted under the guidance of Dr. S. Joy Kumar, PhD, to the Department of Computer Science and Engineering, St. Mary’s Engineering College (Affiliated to JNTUH, Approved by AICTE, Accredited by NAAC) by the Batch of 2018 - 2022 as part of our Bachelor of Technology degree. This work is entirely original, with all referenced content properly cited, and the results are based solely on our project efforts, having not been previously submitted for any degree at any institution.
+This project was submitted under the guidance of **Dr. S. Joy Kumar, PhD**, to the Department of Computer Science and Engineering, **St. Mary’s Engineering College** (Affiliated to JNTUH, Approved by AICTE, Accredited by NAAC) by the Batch of 2018 - 2022 as part of our Bachelor of Technology degree. This work is entirely original, with all referenced content properly cited, and the results are based solely on our project efforts, having not been previously submitted for any degree at any institution.
 
 ## 📌 Project Overview
 This project implements a **Semi-Supervised Machine Learning** approach to detect **Distributed Denial-of-Service (DDoS) attacks** efficiently. By leveraging both labeled and unlabeled data, the model improves its accuracy while reducing dependency on fully labeled datasets.
