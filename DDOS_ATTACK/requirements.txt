@@ -3,3 +3,6 @@ mysqlclient
 numpy  
 pandas  
 scikit-learn  
+nltk==3.7
+matplotlib==3.6.0
+plotly==5.11.0

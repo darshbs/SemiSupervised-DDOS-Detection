@@ -1,5 +1,6 @@
 # 🚀 Semi-Supervised Machine Learning Approach for DDoS Detection
 
+This project was submitted under the guidance of Dr. S. Joy Kumar, PhD, to the Department of Computer Science and Engineering, St. Mary’s Engineering College (Affiliated to JNTUH, Approved by AICTE, Accredited by NAAC) by the Batch of 2018 - 2022 as part of our Bachelor of Technology degree. This work is entirely original, with all referenced content properly cited, and the results are based solely on our project efforts, having not been previously submitted for any degree at any institution.
 
 ## 📌 Project Overview
 This project implements a **Semi-Supervised Machine Learning** approach to detect **Distributed Denial-of-Service (DDoS) attacks** efficiently. By leveraging both labeled and unlabeled data, the model improves its accuracy while reducing dependency on fully labeled datasets.
@@ -21,7 +22,7 @@ This project implements a **Semi-Supervised Machine Learning** approach to detec
    - Works across enterprise networks, home networks, and 3G/4G mobile networks.  
 
 🚨 **Detection Performance**
-- **Accuracy**: Achieves **99.15% malware detectio**n rate (as per the conclusion).
+- **Accuracy**: Achieves **99.15% malware detection** rate (as per the conclusion).
 - **Low False Positives**: Only **0.45% false alarm rate**.
 - **Novelty**: Detects malware missed by traditional antivirus scanners.
 
@@ -124,7 +125,14 @@ The project leverages the following **publicly available network intrusion datas
 - Download links:
    - NSL-KDD
    - UNSW-NB15
-   - UNBISCXIDS2012
+   - UNBISCXIDS2012  
+
+### Dataset Setup  
+1. Download [NSL-KDD](https://www.unb.ca/cic/datasets/nsl.html).  
+2. Extract files into `data/raw/`.  
+3. Run `python scripts/preprocess_data.py`.  
+
+
 
 
 
