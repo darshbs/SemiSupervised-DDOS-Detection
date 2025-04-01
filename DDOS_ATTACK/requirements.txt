@@ -1,0 +1,5 @@
+Django==1.11.5  
+mysqlclient  
+numpy  
+pandas  
+scikit-learn  
