@@ -4,12 +4,22 @@
 ## 📌 Project Overview
 This project implements a **Semi-Supervised Machine Learning** approach to detect **Distributed Denial-of-Service (DDoS) attacks** efficiently. By leveraging both labeled and unlabeled data, the model improves its accuracy while reducing dependency on fully labeled datasets.
 
-## 🔥 Key Features
-✅ **Semi-Supervised Learning** - Uses both labeled and unlabeled data for better detection accuracy.  
-✅ **Anomaly Detection** - Identifies abnormal network traffic patterns.  
-✅ **Real-time Analysis** - Processes incoming traffic in real-time.  
-✅ **Scalable & Efficient** - Works with large-scale network datasets.  
-✅ **Robust Against Evasion** - Adaptable to evolving attack patterns.  
+## 🔥 Core Features
+✅ **Semi-Supervised ML Approach** 
+   - **Hybrid Model**: Combines unsupervised co-clustering (for anomaly detection) with supervised Extra-Trees ensemble classifiers (for precise DDoS classification).
+   - **Noise Reduction**: Filters irrelevant/normal traffic using entropy estimation and information gain ratio.
+✅ **NLP-Driven Traffic Analysis** 
+   - **Text Semantics**: Treats HTTP flows as "text documents" for NLP-based feature extraction.
+   - **N-gram & Chi-Square**: Uses N-gram sequences for pattern analysis and chi-square tests for automated feature selection.
+✅ **Real-Time Detection Architecture** 
+   - **Sliding Window**: Monitors network traffic entropy over time windows to detect abrupt changes (DDoS indicators).
+   - **Dynamic Clustering**: Splits traffic into 3 clusters (normal, attack, mixed) using co-clustering.
+✅ **Multi-Network Compatibility** 
+   - Works across enterprise networks, home networks, and 3G/4G mobile networks.
+🚨 **Detection Performance**
+- **Accuracy**: Achieves **99.15% malware detectio**n rate (as per the conclusion).
+- **Low False Positives**: Only **0.45% false alarm rate**.
+- **Novelty**: Detects malware missed by traditional antivirus scanners.
 
 ## 🚀 Getting Started
 ### 📜 Programming Languages:
@@ -78,7 +88,7 @@ Run:
    python manage.py migrate  
    ```
 6. **Download Datasets**
-   Place the datasets (NSL-KDD, UNSW-NB15, UNBISCXIDS2012) in a folder like data/ (update paths in code if needed).
+   Place the datasets (`NSL-KDD`, `UNSW-NB15`, `UNBISCXIDS2012`) in a folder like data/ (update paths in code if needed).
 7. **Start the Django Server**
    ```bash
    python manage.py runserver  
