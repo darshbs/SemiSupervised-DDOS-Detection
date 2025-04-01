@@ -141,9 +141,12 @@ The project leverages the following **publicly available network intrusion datas
 ## 👨‍💻 Contributors / Team
 ✧ **M. Sai Darshan Balaji** - Team Lead, ML/NLP Engineer 
    - Co-clustering, Extra-Trees, NLP feature extraction.
+
 ✧ **M. Jaya Krishna Sai** - Backend & System Architect
    - Django setup, MySQL integration, API design.
+
 ✧ **T. Amarnath Goud** - Data & Pipeline Enginee
    - Dataset preprocessing (NSL-KDD, UNSW-NB15), entropy analysis.
+   
 ✧ **Md. Ali Ahmad Khurshid** - Frontend & Visualization
    - UI design (HTML/CSS/JS), chart rendering (graphs/spline).
